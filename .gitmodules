@@ -4,3 +4,6 @@
 [submodule "refactor-web05-Denamu"]
 	path = refactor-web05-Denamu
 	url = https://github.com/boostcampwm-2024/refactor-web05-Denamu
+[submodule "Denamu-iac"]
+	path = Denamu-iac
+	url = https://github.com/Team5-Denamu/Denamu-iac.git
