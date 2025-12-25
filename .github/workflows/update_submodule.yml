@@ -15,6 +15,11 @@ jobs:
           submodules: recursive
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Set git identity
+        run: |
+          git config --global user.name "J_Coder"
+          git config --global user.email "seok3765@naver.com"
+
       - name: Update web05-Denamu
         run: |
           cd web05-Denamu
